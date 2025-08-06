@@ -39,10 +39,10 @@
 - Git и GitHub для контроля версий
 
 ## 🧱 Участники команды и роли
-- Алиса — структура HTML и наполнение контентом
-- Боб — стилизация с помощью CSS/SCSS
-- Чарли — реализация интерактивности на JS
-- Дана — работа с GitHub, документация
+- Сара — структура HTML и наполнение контентом
+- Наиль — стилизация с помощью CSS/SCSS
+- Амирхан — реализация интерактивности на JS
+- Мадиар — работа с GitHub, документация
 
 ## 📁 Загрузка на GitHub
 - Файл: `analysis.md` (данный документ)
@@ -91,10 +91,10 @@ Create a responsive news website where users can:
 - Git & GitHub for version control
 
 ## 🧱 Team Members and Roles
-- Alice – HTML structure, content
-- Bob – CSS/SCSS styling
-- Charlie – JS interactivity
-- Dana – GitHub management, docs
+- Sara – HTML structure, content
+- Nail – CSS/SCSS styling
+- Amirkhan – JS interactivity
+- Madiar – GitHub management, docs
 
 ## 📁 GitHub Upload for Step 1
 - File: `analysis.md` (this file)
