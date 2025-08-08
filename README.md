@@ -36,6 +36,9 @@
 
 ## 🧑‍💻 Используемые технологии
 - HTML, CSS, SCSS, JavaScript
+- Django: Rest framework
+  ```pip install djangorestframework```
+  ```pip install djangorestframework-simplejwt```
 - Git и GitHub для контроля версий
 
 ## 🧱 Участники команды и роли
