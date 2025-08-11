@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #0057b7;
+  color: #ffffff;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header .logo img {
+  height: 50px;
+}
+.header .nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.header .nav .nav-item,
+.header .nav .login {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.header .nav .nav-item:hover,
+.header .nav .login:hover {
+  background-color: #003d80;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.main-content .text {
+  background-color: #e0ecff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.main-content .login_text {
+  background-color: #e0ecff;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #0057b7;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .header .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.login-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #e0ecff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+  text-align: center;
+  color: #003d80;
+  margin-bottom: 20px;
+}
+.login-container .login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-container .login-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #003d80;
+}
+.login-container .login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #0057b7;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btn:hover {
+  background-color: #003d80;
+}
+
+/*# sourceMappingURL=styles.css.map */
